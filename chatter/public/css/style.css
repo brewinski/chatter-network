@@ -1,0 +1,63 @@
+
+body,h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+  @font-family-serif:  Georgia, "Times New Roman", Times, serif
+}
+
+.navbar-inverse{
+  background-color: #fff;
+  border-color: #fff;
+  border-radius: 0;
+  height: 75px;
+  padding-top: 12px;
+  box-shadow: 2px 2px 2px #888888;
+}
+.navbar-brand {
+  padding: 0;
+}
+
+.nav-divider {
+  border-right: 1px solid rgba(0,0,0,0.2);
+  width: 0;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #da2121;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  color: #9d9d9d;
+  background-color: #fff;
+}
+ul.nav a:hover { 
+  color: #b82227 !important; 
+}
+
+.jumbotron {
+  background-image: url('../images/wooden-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-color: transparent;
+  color: black;
+  min-height: 300px;
+  margin-top: 75px;
+  margin-bottom:8px;
+
+}
+
+#post-form {
+  padding-top: 10%;
+}
+#post-container {
+  padding: 2%;
+  
+}
+.post-row {
+  padding: 10px;
+  border-bottom: 1px solid #337ab7;
+  margin-top: 10px;
+}
+.post-btn {
+  background-color: transparent;
+  border: none;
+  color: #337ab7;
+}
